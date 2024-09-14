@@ -52,7 +52,6 @@ position: relative;
     }
 
 
-
     .pageLink {
         text-align: center;
         margin: 20px 0px 10px;
@@ -89,4 +88,9 @@ position: relative;
         z-index: -2;
     }
 
-    // background-image로 대나무 꾸며주기
+    
+    .card > button {
+        cursor: pointer !important; 
+    }
+    
+// 대나무배경 넣느라 cursor 도 작동을 안한다면... 매우매우 큰일인데

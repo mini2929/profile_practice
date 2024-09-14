@@ -88,4 +88,8 @@ body {
   z-index: -2;
 }
 
+.card > button {
+  cursor: pointer !important;
+}
+
 /*# sourceMappingURL=style.css.map */
