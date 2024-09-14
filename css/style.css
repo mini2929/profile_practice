@@ -28,13 +28,11 @@ body {
   box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
 }
 .card .bar {
-  width: 2px;
-  height: 2px;
+  width: 25px;
+  height: 5px;
   background-color: orange;
-  margin: 20px;
-}
-.card .fa-solid fa-image {
-  font-size: 200px;
+  margin: 3px;
+  border-radius: 2px;
 }
 .card .pic {
   width: 170px;
@@ -50,10 +48,18 @@ body {
   height: 109%;
   object-fit: cover;
 }
-.card .sircle > p {
-  width: 50px;
-  height: 50px;
+.card .pageLink {
+  text-align: center;
+  margin: 20px 0px 10px;
+  font-size: 0px;
+}
+.card .pageLink a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
   border-radius: 50%;
+  margin: 0px 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
