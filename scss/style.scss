@@ -33,7 +33,15 @@ box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
         margin: 0px auto;
         box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
         margin-bottom: 20px;        
+
+        img {
+            width: 113%;
+            height: 109%;
+            object-fit: cover;
+        }
+        // pic 이라는 클래스명의 div안에 img 태그를 넣고 object-fit:cover; 넣기!
     }
+
     
     .sircle > p {
         width: 50px;
