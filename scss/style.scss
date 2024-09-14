@@ -6,13 +6,15 @@ body {
 
 .card {
 
-width: 600px;
+width: 280px;
 background-color: white;
 text-align: center;
 padding: 30px;
 margin: 300px auto;
 border-radius: 20px;
 box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
+
+// background-image로 대나무 꾸며주기
 
     .bar {
         width: 25px;
@@ -22,6 +24,8 @@ box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
         border-radius: 2px;
     }
 
+    // 글씨체 조정하기
+    // 아이콘 추가하기
 
     .pic {
         width: 170px;
