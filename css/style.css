@@ -14,4 +14,31 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: rgba(255, 115, 0, 0.164);
+}
+
+div {
+  width: 600px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 300px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
+  display: flex;
+  flex-wrap: wrap;
+}
+div .bar {
+  width: 2px;
+  height: 2px;
+  background-color: orange;
+}
+div .fa-solid fa-image {
+  font-size: 200px;
+}
+div image {
+  width: 200px;
+  height: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
