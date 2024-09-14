@@ -18,7 +18,7 @@ body {
   background-color: rgba(255, 115, 0, 0.164);
 }
 
-div {
+.card {
   width: 600px;
   background-color: white;
   border: 1px solid black;
@@ -28,17 +28,22 @@ div {
   display: flex;
   flex-wrap: wrap;
 }
-div .bar {
+.card .bar {
   width: 2px;
   height: 2px;
   background-color: orange;
 }
-div .fa-solid fa-image {
+.card .fa-solid fa-image {
   font-size: 200px;
 }
-div image {
+.card image {
   width: 200px;
   height: 200px;
+}
+.card .sircle > p {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
