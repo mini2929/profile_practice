@@ -27,6 +27,7 @@ body {
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
   position: relative;
+  z-index: 1;
 }
 .card .bar {
   width: 25px;
@@ -34,6 +35,9 @@ body {
   background-color: rgb(59, 144, 93);
   margin: 3px;
   border-radius: 2px;
+}
+.card .fa-image {
+  font-size: 35px;
 }
 .card .pic {
   width: 170px;
@@ -54,6 +58,16 @@ body {
 }
 .card h2 {
   color: rgb(59, 144, 93);
+}
+.card button {
+  cursor: pointer !important;
+  display: block;
+  margin: 0px auto;
+  border-radius: 15px;
+  padding: 10px;
+  background: linear-gradient(0deg, black, white, rgb(147, 100, 24), white, black);
+  border: 0px;
+  box-shadow: 5px 5px 5px gray;
 }
 .card .pageLink {
   text-align: center;
@@ -86,10 +100,6 @@ body {
 .card {
   background-color: white;
   z-index: -2;
-}
-
-.card > button {
-  cursor: pointer !important;
 }
 
 /*# sourceMappingURL=style.css.map */
