@@ -81,8 +81,24 @@ body {
   left: -5px;
 }
 .card li span {
-  padding: 8px;
+  display: inline-block;
+  padding: 2px;
   line-height: 1.5;
+}
+.card span::after {
+  content: "";
+  display: block;
+  width: 10%; /* 선의 너비를 글자 너비의 설정 */
+  height: 1px;
+  background-color: #000; /* 검은색 선 */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-30%); /* 가운데 정렬 -50%이나 30으로 수정*/
+  margin: -2px auto;
+}
+.card li:last-child span::after {
+  display: none; /* 마지막 항목의 선을 숨김 */
 }
 .card .pageLink {
   text-align: center;
