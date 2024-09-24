@@ -32,16 +32,18 @@ body {
 .card section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
-.card section .bar {
+.card section .barGroup > div {
   width: 25px;
   height: 5px;
   background-color: rgb(59, 144, 93);
   margin: 3px;
   border-radius: 2px;
 }
-.card section .fa-image {
-  font-size: 35px;
+.card section .fa-camera-retro {
+  font-size: 30px;
 }
 .card .pic {
   width: 170px;
@@ -67,12 +69,20 @@ body {
 .card button {
   cursor: pointer !important;
   display: block;
-  margin: 5px auto;
+  margin: 8px auto;
   border-radius: 15px;
   padding: 10px;
-  background: linear-gradient(0deg, black, white, rgb(147, 100, 24), white, black);
+  background: linear-gradient(0deg, black, white, rgb(147, 100, 24) 35%, white, black);
   border: 0px;
   box-shadow: 5px 5px 5px gray;
+}
+.card li {
+  position: relative;
+  left: -5px;
+}
+.card li span {
+  padding: 8px;
+  line-height: 1.5;
 }
 .card .pageLink {
   text-align: center;
@@ -105,6 +115,10 @@ body {
 .card {
   background-color: white;
   z-index: -2;
+}
+
+.barGroup.on > div.bar2 {
+  width: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
