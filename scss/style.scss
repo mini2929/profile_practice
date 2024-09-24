@@ -15,7 +15,11 @@ box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
 position: relative;
 z-index: 1; 
 
-// flex가 아닌 float로 하라고 하셨던 것 같기도..
+
+    
+    section{
+        display: flex;
+        flex-wrap: wrap;
 
     .bar {
         width: 25px;
@@ -25,11 +29,11 @@ z-index: 1;
         border-radius: 2px;
     }
 
-    // 글씨체 조정하기
     .fa-image {
         font-size: 35px;
     }
-// 왜 적용이 안돼지¿¿¿ -- sass 연동 불안정했어서..
+    }
+
 
     .pic {
         width: 170px;
@@ -53,13 +57,14 @@ z-index: 1;
 
     h2 {
         color: rgb(59, 144, 93);
+        text-transform: uppercase;
     }
 
 
     button {
         cursor: pointer !important; 
         display: block;
-        margin: 0px auto;
+        margin: 5px auto;
         border-radius: 15px;
         padding: 10px;
         background: linear-gradient(0deg,black , white , rgb(147, 100, 24), white, black);
@@ -69,6 +74,12 @@ z-index: 1;
         
     }
     
+
+    li {
+        span{
+        
+        }
+    }
 
     .pageLink {
         text-align: center;
