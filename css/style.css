@@ -26,8 +26,9 @@ body {
   margin: 300px auto;
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
+  background-color: white;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 .card section {
   display: flex;
@@ -138,11 +139,6 @@ body {
   border-radius: 20px; /* 카드의 테두리에 맞게 이미지도 둥글게 */
   opacity: 0.2; /* 배경 이미지에만 투명도를 설정 */
   z-index: -1; /* 요소의 내용이 위로 오도록 설정 */
-}
-
-.card {
-  background-color: white;
-  z-index: -2;
 }
 
 .barGroup.on > div.bar2 {

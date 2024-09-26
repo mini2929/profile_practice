@@ -12,8 +12,9 @@ padding: 30px;
 margin: 300px auto;
 border-radius: 20px;
 box-shadow: 5px 5px 10px rgba(130, 61, 18, 0.833);
+background-color: white;
 position: relative;
-z-index: 1; 
+z-index: 0; 
 
 
     
@@ -146,10 +147,6 @@ z-index: 1;
     z-index: -1; /* 요소의 내용이 위로 오도록 설정 */
     }
 
-    .card {
-        background-color: white;
-        z-index: -2;
-    }
 
     .barGroup.on{
         > div{
